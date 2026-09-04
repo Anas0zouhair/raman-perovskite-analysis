@@ -1,0 +1,36 @@
+{
+  "laser_wavelength_nm": 532.0,
+  "cosmic_ray_threshold": 5,
+  "airpls_lambda": 1e6,
+  "savgol_window": 11,
+  "savgol_polyorder": 2,
+  "peaks": [
+    {
+      "name": "MA_stretch",
+      "center": 965,
+      "amplitude": 1500,
+      "sigma": 18,
+      "center_min": 950,
+      "center_max": 980,
+      "model_type": "Voigt"
+    },
+    {
+      "name": "FA_stretch",
+      "center": 1008,
+      "amplitude": 1800,
+      "sigma": 20,
+      "center_min": 995,
+      "center_max": 1025,
+      "model_type": "Voigt"
+    },
+    {
+      "name": "Cs_stretch",
+      "center": 1048,
+      "amplitude": 900,
+      "sigma": 15,
+      "center_min": 1035,
+      "center_max": 1060,
+      "model_type": "Lorentzian"
+    }
+  ]
+}
